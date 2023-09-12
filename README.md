@@ -103,11 +103,11 @@ The additional arguments are explained below:
 and `dilation=1`. If you need
 this extension, please contact us.
 
-### Experiments
+## Experiments
 
 If you wish to reproduce our experiments, please follow these steps:
 
-1. Copy all the files and folders from `experiments/` to the directory
+1. Move all the files and folders from `experiments/` to the directory
    including `diff_conv2d/` (such as the root of this repo).
 2. Install dependencies for experiments:
 
@@ -115,7 +115,8 @@ If you wish to reproduce our experiments, please follow these steps:
   pip install -r exp_requirements.txt
   ```
 
-3. Refer to `exp_*_readme.md` for detailed guidance on each experiment.
+3. Refer to `exp_*_readme.md` for detailed guidance on each experiment, 
+including data downloading, training and plotting.
 
 ## Acknowledgement
 
