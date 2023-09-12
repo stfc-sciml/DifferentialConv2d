@@ -1,0 +1,11 @@
+torch
+scipy
+numpy
+scikit-image
+tqdm
+mpi4py
+matplotlib
+wget
+pathlib
+pillow
+torchvision
